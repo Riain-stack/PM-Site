@@ -1,10 +1,12 @@
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
+import { Router } from "@angular/router"
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+    selector: "app-root",
+    templateUrl: "/src/app/app.component.html",
+
+styles: []
 })
 export class AppComponent {
-  title = 'PM-Site';
+  title = "LLC Electronics";
 }
